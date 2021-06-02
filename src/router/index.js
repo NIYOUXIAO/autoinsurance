@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import login from '@/components/login'
 import main from '@/components/main'
 import accident from '@/components/accident'
-
+import dispatching from '@/components/dispatching'
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +21,11 @@ export default new Router({
 				path: '/accident',
 				name: 'accident',
 				component: accident
+			},
+			{
+				path: '/dispatching',
+				name: 'dispatching',
+				component: dispatching
 			}]
 		}
 	]
